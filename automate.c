@@ -51,8 +51,12 @@ void supprimer_etat(){
     
 }
 void ajouter_transition(lts *l, transition *t){
+    if(etat != NULL){
+        transition*etat;
+    } 
     
 }
+
 void supprimer_transition(){
     
 }
